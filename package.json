@@ -1,14 +1,22 @@
 {
-  "name": "workspace",
+  "name": "exampletestjavascripttotypescript",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "license": "MIT",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^5.1.0",
     "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "typescript": "^5.8.3"
   }
 }
